@@ -12,8 +12,31 @@
 
 <br>
 
-<h3>📚 About me</h3>
+<!-- About me code snippet in C-->
+```c
+#include <stdbool.h>
 
+int  main(void)
+{
+    struct  about_me Daniel = {
+      .name = "Daniel Fontiveros Macías",
+      .pronouns = {"he", "him"},
+      .age = 18,
+      .student = true,
+      .hired = false,
+      .contact = "daniel.fontiveros280@gmail.com"
+    };
+
+    struct  student my_studies = {
+      .is_student = true,
+      .status = {"42 Student"},
+      .campus_42 = "Málaga",
+      .login_42 = "dfontive",
+    };
+
+    return (0);
+}
+```
 
 <!--
 **Fonti0/Fonti0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
