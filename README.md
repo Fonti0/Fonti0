@@ -20,7 +20,6 @@ int  main(void)
 {
     struct  about_me Daniel = {
       .name = "Daniel Fontiveros Macías",
-      .pronouns = {"he", "him"},
       .age = 18,
       .student = true,
       .hired = false,
